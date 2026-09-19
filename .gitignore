@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# SwiftPM / Xcode build output and per-user state
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Claude Code local settings (machine-specific paths and permissions)
+.claude/settings.json
+.claude/settings.local.json
